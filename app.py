@@ -1,3 +1,6 @@
+import os
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
+
 import streamlit as st
 import matplotlib.pyplot as plt
 from model import analyze_student
